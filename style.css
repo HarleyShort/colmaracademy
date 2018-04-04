@@ -1,6 +1,9 @@
-header .colmar .academy{align-items: flex-start;font-family: monospace;}
+header .colmar .academy{text-align: center; flex-start;font-family: monospace;}
 .learn{
   images:resources/images/banner.jpg;
   width: 60%;
   height: auto;
+}
+learning {
+  align-items: center;
 }
