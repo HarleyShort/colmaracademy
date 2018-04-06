@@ -1,9 +1,98 @@
-header .colmar .academy{text-align: center; flex-start;font-family: monospace;}
-.learn{
-  images:resources/images/banner.jpg;
-  width: 60%;
-  height: auto;
+#container{
+  background-color: white;
 }
-learning {
-  align-items: center;
+#learn{
 }
+#middleleft{
+}
+#middleright{
+}
+#learning{
+}
+#thesis{
+}
+#footer{
+}
+#copyrightftr{
+}
+#linkfooter{
+}
+nav{
+  align-items:right 24px;
+  flex-direction: row;
+}
+header{
+  height: 64px;
+  width: auto;
+  background-color: white;
+  flex-direction: row;
+}
+.ic-logo{
+  align-items:flex-start 24px;
+}
+.Colmar{
+}
+.academy{
+}
+.Colmar .academy{
+  text-align:left;
+}
+.button{
+}
+.orientation{
+}
+.campus{
+}
+.lecture{
+}
+.learnhead{
+}
+.Event{
+}
+.course-ttl{
+}
+.card{
+}
+.video{
+  padding-left: 24px;
+  width: 80%;
+  align-items: flex-start;
+  
+}
+.rvideotop{
+}
+.rvideobottom{
+}
+.copyrightftr{
+}
+
+media only screen and (max-width: 480px), (orientation: portrait) {
+  .page-title {
+    width: 270px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .gallery-item .thumbnail {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-resolution: 150dpi) {
+  .logo {
+    background-image: url(#);
+  }
+}
+
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+  .page-description {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .page-title,
+  .page-description {
+    float: left;
+    width: 20em;
+  }
