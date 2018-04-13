@@ -15,9 +15,10 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 16px 16px;
-  background-color: yellow;
+
   height: 64px;
   align-items: center;
+  color: black;
 
 }
 
@@ -27,7 +28,7 @@ ul{
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
-    background-color: yellow;
+
 
 }
 .desktop{
@@ -37,11 +38,12 @@ ul{
 }
 .logo{
   flex-grow: 1;
-  background-color: yellow;
   align-items: center;
 
 }
-
+.learn img{
+  width: 50%;
+}
 thesis-container{
   display: flex;
   align-content: flex-end;
@@ -61,6 +63,7 @@ h1 h2{
 video-container{
 
 }
+.
 .video-container{
 
 }
@@ -99,7 +102,7 @@ text-align: center;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: yellow;
+  background-color: ;
   height: 64px;
 }
 
