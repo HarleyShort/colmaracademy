@@ -1,98 +1,119 @@
-#container{
-  background-color: white;
-}
-#learn{
-}
-#middleleft{
-}
-#middleright{
-}
-#learning{
-}
-#thesis{
-}
-#footer{
-}
-#copyrightftr{
-}
-#linkfooter{
-}
-nav{
-  align-items:right 24px;
-  flex-direction: row;
-}
-header{
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: yellow;
   height: 64px;
-  width: auto;
-  background-color: white;
-  flex-direction: row;
 }
-.ic-logo{
-  align-items:flex-start 24px;
-}
-.Colmar{
-}
-.academy{
-}
-.Colmar .academy{
-  text-align:left;
-}
-.button{
-}
-.orientation{
-}
-.campus{
-}
-.lecture{
-}
-.learnhead{
-}
-.Event{
-}
-.course-ttl{
-}
-.card{
-}
-.video{
-  padding-left: 24px;
-  width: 80%;
-  align-items: flex-start;
-  
-}
-.rvideotop{
-}
-.rvideobottom{
-}
-.copyrightftr{
-}
-
-media only screen and (max-width: 480px), (orientation: portrait) {
-  .page-title {
-    width: 270px;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  .gallery-item .thumbnail {
-    width: 95%;
-  }
-}
-
-@media only screen and (min-resolution: 150dpi) {
-  .logo {
-    background-image: url(#);
-  }
-}
-
-@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
-  .page-description {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .page-title,
-  .page-description {
+  header li{
     float: left;
-    width: 20em;
   }
+  header li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  header li h1{
+  color:black;
+  height: 32px;
+  font-weight: bold;
+}
+  header li h2{
+  color:grey;
+  height: 32px;
+  font-weight: normal;
+}
+thesis-container{
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-start;
+}
+
+
+learn-container{
+  display: flex;
+  justify-content:flex-end;
+
+}
+
+h1 h2{
+  font-family: helvetica;
+}
+video-container{
+
+}
+.body{
+  display: flex;
+  justify-content: center;
+  background-color: dodgerblue;
+}
+.video-container{
+
+}
+
+.grid-container{
+display: flex;
+flex-wrap:wrap;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+align-content: center;
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+
+.button{
+ display: flex;
+ justify-content: center;
+ align-content: center;
+}
+
+.Learn{
+  text-align: center;
+
+}
+
+.middleleft{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer {
+  border-bottom: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: yellow;
+  height: 64px;
+}
+
+.footer li{
+  display: flex;
+  list-style-type: none;
+  float: left;
+  justify-content: center;
+  padding-left: 24px;
+}
+.footer li a {
+  padding-top: 16px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.footer li p{
+  display: block;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  width: 30%;
+}
+#Learn{
+  display: flex;
+  text-shadow: 4px gray;
+}

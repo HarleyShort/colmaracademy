@@ -2,31 +2,43 @@
 <html>
 <head>
   <title>Colmar Academy</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="style.css"
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
 </head>
 <body>
-  <header>
-<div id="container">
-  <div class="ic-logo">
-    <div class="Colmar"><h2>COLMAR</h2></div><div class="academy"><h2>ACADEMY</h2></div>
-    <nav>
-      <ul>
-      <li><a href="#">On Campus</a></li>
-      <li><a href="#">Online</a></li>
-      <li><a href="#">or Companies</a></li>
-      <li><a href="resources/images/ic-login.svg">Sign in</a></li>
-      </ul>
-    </nav>
-  </div>
-  </header>
-  <div id="Learn">
-    <h1>Learn something
-      <span>new everyday</span></h1>
+  <div class="main-container">
+<header>
+<nav>
+    <ul>
+      <li><img src="resources/images/ic-logo.svg" alt="logo"></li>
+      <li><h1>Colmar<h1></li>
+      <li><h2>Academy<h2></li>
+      <li style="float:right"><a href="resources/images/ic-login.svg">Sign in</a></li>
+      <li style="float:right"><a href="#">or Companies</a></li>
+      <li style="float:right"><a href="#">On Campus</a></li>
+      <li style="float:right"><a href="#">Online</a></li>
+    </ul>
+</nav>
+</header>
+
+<div class="learn-container">
+  <div class="Learn">
+    <h1>Learn something</h1>
+      <h2>new everyday</h2>
+    </div>
       <p></p>
-      <div class="button">Start here</div>
-  </div>
+      <div class="button"><button type="button" class="btn btn-primary">Start Here</button>
+    </div>
+ </div>
+ <div class="middle">
   <div id="middleleft">
     <h1>It doesn't hurt to keep practicing</h1>
     <p></p>
@@ -34,105 +46,100 @@
   </div>
   <div id="middleright">
     <div class="orientation">
+      <img src="resources/images/information-orientation.jpg"alt="Orientation">
       <h4>Orientation</h4>
       <p>Tues 10/11 & 10/12:8am-3pm</p>
       <a href="#">Read more</a>
     </div>
+    </div>
     <div class="campus">
+      <img src="resources/images/information-campus.jpg"alt="Campus">
       <h4>Our Campus</h4>
       <a href="#">Read more</a>
       <p></p>
     </div>
     <div class="lecture">
+      <img src="resources/images/information-guest-lecture.jpg" alt="Lecture">
       <h4>Our guest lecture</h4>
       <p>Join a keynote with Oliver Sack about music in medical treatment</p>
       <a href="#">Read more</a>
+    </div>
   </div>
 
-<div id= "learning">
-  <div class="learnhead">
-    <h1>Start Learning</h1>
+
+<div class="grid-container">
+<div class="course-software">
+  <a target="_blank" href="resources/images/course-software.jpg">
+    <img src="resources/images/course-software.jpg" alt="Software Engineering" width="300" height="200">
+  </a>
+  <div class="desc">Software Engineering</div>
+</div>
+<div class="art">
+  <a target="_blank" href="resources/images/course-computer-art.jpg">
+    <img src="resources/images/course-computer-art.jpg" alt="Computer Art" width="300" height="200">
+  </a>
+  <div class="desc">Computer Art</div>
+</div>
+<div class="design">
+  <a target="_blank" href="resources/images/course-design.jpg">
+    <img src="resources/images/course-design.jpg" alt="Design" width="300" height="200">
+  </a>
+
+<div class="desc">Design</div>
+</div>
+<div class="data">
+  <a target="_blank" href="resources/images/course-data.jpg">
+    <img src="resources/images/course-data.jpg" alt="Data" width="300" height="200">
+  </a>
+  <div class="desc">Data</div>
+</div>
+  <div class="business">
+    <a target="_blank" href="resources/images/course-business.jpg">
+      <img src="resources/images/course-business.jpg" alt="Business" width="300" height="200">
+    </a>
+    <div class="desc">Business</div>
   </div>
-      <div class="Event">
-      <div class="course-ttl"></div><a href="#"></a><img src="resources/images/course-software.jpg">
-      <div class="card"><h4>Software engineering</h4>
-      <p></p>
+
+    <div class="marketing">
+      <a target="_blank" href="resources/images/course-marketing.jpg">
+        <img src="resources/images/course-marketing.jpg" alt="Marketing" width="300" height="200">
+      </a>
+      <div class="desc">Marketing</div>
     </div>
     </div>
-
-      <div class="Event">
-        <div class="course-ttl"></div>
-        <a href="#"></a><img src="resources/images/course-computer-art.jpg">
-        <div class="card">
-          <h4>Computer art</h4>
-        <p></p>
-      </div>
-      </div>
-
-      <div class="Event">
-        <div class="course-ttl"></div>
-        <a href="#"></a><img src="resources/images/course-design.jpg">
-        <div class="card">
-          <h4>Design</h4>
-        <p></p>
-      </div>
-      </div>
-
-      <div class="Event">
-        <div class="course-ttl"></div>
-        <a href="#"></a><img src="resources/images/course-data.jpg">
-        <div class="card">
-          <h4>Data</h4>
-        <p></p>
-      </div>
-      </div>
-
-      <div class="Event">
-        <div class="course-ttl"></div>
-        <a href="#"></a><img src="resources/images/course-business.jpg">
-        <div class="card">
-          <h4>Business</h4>
-        <p></p>
-      </div>
-      </div>
-
-      <div class="Event">
-        <div class="course-ttl"></div>
-        <a href="#"></a><img src="resources/images/course-marketing.jpg">
-        <div class="card">
-          <h4>Marketing</h4>
-        <p></p>
-      </div>
-      </div>
-    </div>
-
-
-  <div id="Thesis">
+<div class="video-container">
+<div class="thesis-container">
+<div class="Thesis">
     <h3>Thesis exhibit</h3>
     <div class= "video">
       <video src="resources/videos/thesis.mp4" width="640" height="360" type="video/ogg"></video>
       <h2>Reimagine urban</h2>
       <p></p>
     </div>
+  </div>
+</div>
+    <div class="bottom-cont">
     <div class="rvideotop">
         <img src="resources/images/thesis-fisma.jpg">
         <h4>Fisma: Design and prototype</h4>
       <p>Designer showcase of new prototype products</p>
     </div>
+  </div>
     <div class="rvideobottom">
       <img src="resources/images/thesis-now-and-then.jpg">
       <h4>Now and then</h4>
       <p>Research study about New York</p>
     </div>
-      <div id="footer">
-        <class id="copyrightftr">
-          <p>&copy;2016 Colmar Academy. All rights reserved</p>
-      </div>
-        <div class id="linkfooter">
-          <a href="#"><p>Terms</p><a href="#"><p>Privacy</p></a>
-        <div>
+</div>
+      <div class ="footer">
+        <p>&copy;2016 Colmar Academy. All rights reserved</p>
+      <nav>
+        <ol>
+          <li><li style="float:right"><a href="#"><p>Terms</p></a></li>
+          <li><li style="float:right"><a href="#"><p>Privacy</p></a><li>
+        </ol>
+      </nav>
+    </div>
   </div>
-</div>
-</div>
 </body>
 </html>
