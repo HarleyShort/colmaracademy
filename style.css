@@ -1,32 +1,47 @@
-
+header .mobile{
+  display:none;
+}
+@media only screen and (max-width: 550px) {
+  header .desktop {
+    display: none;
+  }
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+}
 ul{
+  display: inline;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+  padding: 16px 16px;
   background-color: yellow;
   height: 64px;
+  align-items: center;
+
 }
-  header li{
-    float: left;
-  }
-  header li a{
-    display: block;
+
+  header li {
+    display:inline;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
+    background-color: yellow;
+
 }
-  header li h1{
-  color:black;
-  height: 32px;
-  font-weight: bold;
+.desktop{
+  display: flex;
+
+
 }
-  header li h2{
-  color:grey;
-  height: 32px;
-  font-weight: normal;
+.logo{
+  flex-grow: 1;
+  background-color: yellow;
+  align-items: center;
+
 }
+
 thesis-container{
   display: flex;
   align-content: flex-end;
@@ -45,11 +60,6 @@ h1 h2{
 }
 video-container{
 
-}
-.body{
-  display: flex;
-  justify-content: center;
-  background-color: dodgerblue;
 }
 .video-container{
 
