@@ -1,5 +1,5 @@
 body{
-  max-width: 1200px
+  width: 100%;
 }
   header .mobile{
   display:none;
@@ -19,14 +19,14 @@ ul{
   margin: 0;
   padding: 16px 16px;
   height: 64px;
-  align-items: center;
   color: black;
+
 }
 
   header li {
     display:inline;
     color: black;
-    text-align: center;
+    text-align: right;
     padding: 16px 16px;
     text-decoration: none;
     justify-content: flex-end;
@@ -37,17 +37,48 @@ banner-left{
   flex: 2;
 }
 banner-right{
-  display: flex;
   flex:1;
-  background-color: grey;
+}
+
+
+
+
+
+.banner-right{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 24px;
+  font-weight: bold;
+  background-color: #d3d3d3;
+  width: 40%;
+  font-size: 30px;
 }
-.desktop{
+#banner-right h3{
+  font-weight: 50px;
+}
+.banner-left{
   display: flex;
-
-
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background-color: #d3d3d3;
+  font-weight: 500;
 }
+.middle{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 24px;
+  margin-top: 32px;
+}
+
+.middle p{
+  display: flex;
+  width: 60%;
+}
+
 .logo{
   flex-grow: 1;
   align-items: center;
@@ -63,32 +94,42 @@ thesis-container{
 learn-container{
   display: flex;
   justify-content:flex-end;
-
 }
 
 h1 h2{
   font-family: helvetica;
 }
+
 video-container{
 
 }
 #banner{
   display: flex;
 }
-.video-container{
-
+.orpic .campic .lecpic{
+  float: right;
 }
+.course-software .art .design .data .business .marketing{
+display:flex;
+justify-content: flex-start;
+flex-direction: row;}
+
+.orientation p h4{
+  float: right;
+}
+
 
 .grid-container{
 display: flex;
-flex-wrap:wrap;
+flex-wrap: nowrap;
 flex-direction:row;
 justify-content: center;
 align-items: center;
 align-content: center;
-width: 80%;
+width: 0%;
 margin: 0 auto;
 text-align: center;
+background-color: #d3d3d3;
 }
 
 .button{
@@ -99,13 +140,15 @@ text-align: center;
 
 .Learn{
   text-align: center;
-
 }
 
 .middleleft{
+  padding-left: 24px;
+  max-width: 60%;
+  max-height: inherit;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  margin-left: 24px;
+  flex-direction: column;
 }
 
 .footer {
@@ -140,7 +183,4 @@ text-align: center;
 #Learn{
   display: flex;
   text-shadow: 4px gray;
-}
-#banner {
-  display: flex
 }
