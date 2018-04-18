@@ -22,7 +22,28 @@ ul{
   color: black;
 
 }
-
+.content {
+Width: 600px;
+Margin: auto;
+Display: block;
+}
+.content img {
+Width : 600px;
+}
+.middleleft p h1{
+  display: flex;
+  justify-content: center;
+  width: 600px;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(resources/images/banner.jpg);
+    background-position: 0% 25%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: white 0.3em 0.3em 0.3em;
+}
   header li {
     display:inline;
     color: black;
@@ -32,6 +53,26 @@ ul{
     justify-content: flex-end;
   }
 
+div.middleright {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.middleright:hover {
+    border: 1px solid #777;
+}
+
+div.middleright img {
+    width: 100%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+
+}
 
 banner-left{
   flex: 2;
@@ -39,10 +80,9 @@ banner-left{
 banner-right{
   flex:1;
 }
-
-
-
-
+.banner{
+  width: 100%;
+}
 
 .banner-right{
   display: flex;
@@ -51,7 +91,7 @@ banner-right{
   align-items: center;
   padding-left: 24px;
   font-weight: bold;
-  background-color: #d3d3d3;
+
   width: 40%;
   font-size: 30px;
 }
@@ -91,10 +131,7 @@ thesis-container{
 }
 
 
-learn-container{
-  display: flex;
-  justify-content:flex-end;
-}
+
 
 h1 h2{
   font-family: helvetica;
@@ -106,8 +143,8 @@ video-container{
 #banner{
   display: flex;
 }
-.orpic .campic .lecpic{
-  float: right;
+.orpic,.campic,.lecpic{
+  float: left;
 }
 .course-software .art .design .data .business .marketing{
 display:flex;
@@ -117,7 +154,9 @@ flex-direction: row;}
 .orientation p h4{
   float: right;
 }
-
+.banner-left{
+  max-width: 60%;
+}
 
 .grid-container{
 display: flex;
