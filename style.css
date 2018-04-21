@@ -73,6 +73,7 @@ header li {
 }
 .middle p{
   display: flex;
+  width: 300px;
 }
 .middleleft p h1{
   display: flex;
@@ -93,7 +94,7 @@ div.middleright img {
   width: 35%;
 }
 .middleimg{
-  max-width:200%;
+  width: 500px;
 }
 .orientation,.campus,.lecpic{
   display: flex;
