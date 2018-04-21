@@ -92,7 +92,9 @@ div.middleright:hover {
 div.middleright img {
   width: 35%;
 }
-
+.middleimg{
+  max-width:200%;
+}
 .orientation,.campus,.lecpic{
   display: flex;
   padding: 2rem;
