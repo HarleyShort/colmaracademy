@@ -96,6 +96,8 @@ div.middleright img {
 .orientation,.campus,.lecpic{
   display: flex;
   padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* course section styles */
